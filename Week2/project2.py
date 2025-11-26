@@ -1,18 +1,23 @@
-# Build a Student Grade Calculator that takes marks and returns grade with comments, and stores results in a list
+# ---------------------------------------
+# Student Grade Calculator
+# Takes student marks, returns grade with comments,
+# and stores results in a list
+# ---------------------------------------
 
-
-results = []   # Store all student data
+# List to store all student data
+results = []
 
 while True:
-    print("\n Student Grade Calculator")
+    print("\n--- Student Grade Calculator ---")
     name = input("Enter student name (or type 'quit' to stop): ").strip()
 
     if name.lower() == "quit":
         break
 
-    # Take marks
-    marks_input = input("Enter marks (0-100): ")
+    # Input marks
+    marks_input = input("Enter marks (0-100): ").strip()
 
+    # Validate marks input
     if not marks_input.isdigit():
         print("Please enter a valid number for marks!")
         continue
@@ -23,7 +28,7 @@ while True:
         print("Marks must be between 0 and 100!")
         continue
 
-    # Grade Logic
+    # Determine grade and comment
     if marks >= 90:
         grade = "A"
         comment = "Excellent performance!"
@@ -40,22 +45,22 @@ while True:
         grade = "F"
         comment = "Failed. Better luck next time."
 
-    # Store result
+    # Store result in the list
     student = {
         "name": name,
         "marks": marks,
         "grade": grade,
         "comment": comment
     }
-
     results.append(student)
 
+    # Display individual result
     print(f"\n{name}'s Result:")
     print(f"Marks: {marks}")
     print(f"Grade: {grade}")
     print(f"Comment: {comment}")
 
-# After quitting:
-print("\n FINAL RESULTS")
+# Display final results after quitting
+print("\n--- FINAL RESULTS ---")
 for r in results:
     print(f"{r['name']} - Marks: {r['marks']} | Grade: {r['grade']} | Comment: {r['comment']}")
