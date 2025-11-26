@@ -1,25 +1,31 @@
-# Week 1 — Python Basics (Your Programming Foundation)
+# Week 1 — Python Basics (Programming Foundation)
 
-This folder contains all exercises and the project completed in **Week 1** of the internship.
+This folder contains all exercises and the final project completed in **Week 1** of the internship.
 
-## 📚 Theory Covered
-- What is Python and basic programming concepts  
-- Variables and data types: strings, numbers, booleans  
-- Basic operations: arithmetic and string concatenation  
-- Input / Output: reading user input and printing results  
+## 📚 Concepts Covered
+- What is Python? Introduction to basic programming concepts  
+- Variables and data types (strings, numbers, booleans)  
+- Basic operations: arithmetic & string concatenation  
+- Input and output using `input()` and `print()`  
 - Comments and code documentation  
-- Understanding common errors and how to read them
+- Understanding and fixing common syntax errors  
 
-## 🛠️ Hands-On Practice (Files / Programs)
-- Install Python and set up the coding environment  
-- `hello_world.py` — First "Hello World" program  
-- `variables_and_types.py` — Examples of strings, numbers, booleans  
-- `simple_calculator.py` — Basic arithmetic operations  
-- `greeting_program.py` — Ask for user name and print greeting  
-- `syntax_fixes.md` — Notes or examples fixing common syntax errors
+## 🛠️ Hands-On Practice
+All Week 1 practice tasks are completed in a single file:
 
-## 🎯 Project: Personal Information Manager
-- `personal_info_manager.py` — Stores and displays name, age, city, hobbies with formatted output
+- `Week1_Tasks.py`  
+  Includes:
+  - Hello World program  
+  - Variable creation and data types  
+  - Basic arithmetic calculator  
+  - User greeting program  
+  - Simple error understanding exercises  
 
+## 🎯 Project — Personal Information Manager
+- `Personal_info_manager_project1.py`  
+  - Stores user details such as name, age, city, and hobbies  
+  - Displays the information in a clean, formatted output
 
-
+## 💡 Notes
+- Week 1 focused on understanding Python basics and learning how to write simple programs confidently.
+- All tasks were tested with different inputs to ensure correctness.
