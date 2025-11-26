@@ -1,25 +1,34 @@
 # Week 2 — Control Flow & Data Structures
 
-This folder contains the Week 2 exercises and the project for the internship.
+This folder contains all the Week 2 exercises and the final project for the internship.
 
-## 📚 Theory Covered
-- Conditional statements: `if`, `elif`, `else`  
-- Comparison operators: `==`, `!=`, `>`, `<`, `>=`, `<=`  
-- Lists: creating, accessing, modifying collections of data  
-- For loops and while loops  
-- Basic error handling with `try` / `except`
+## 📚 Concepts Covered
+- Conditional statements (`if`, `elif`, `else`)
+- Comparison operators (`==`, `!=`, `>`, `<`, `>=`, `<=`)
+- Lists and list operations
+- For loops and while loops
+- Basic error handling using `try` / `except`
 
-## 🛠️ Hands-On Practice (Files / Programs)
-- `number_guessing_game.py` — Number guessing game with hints  
-- `age_categorizer.py` — Categorizes ages as child, teen, adult, senior and stores results  
-- `shopping_list_manager.py` — Menu-driven add/remove/view shopping list program  
-- `multiplication_table.py` — Multiplication table generator (simple + advanced versions)  
-- `login_system.py` — Simple login system using a username/password dictionary  
-- `list_practice.py` — Demonstrations of `.append()`, `.insert()`, `.remove()`, `.pop()`, `.sort()`, `.reverse()`, `.clear()`, `.index()`, `.count()`
+## 🛠️ Hands-On Practice
+All Week 2 practice tasks are completed inside **one file**:
 
-## 🎯 Project: Student Grade Calculator
-- `grade_calculator_project.py` — Takes marks (0–100), computes grade (A/B/C/D/F), provides comments, and stores results in a list of dictionaries.
+- `week2_practice.py`  
+  Includes:
+  - Number guessing game  
+  - Age categorizer  
+  - Shopping list manager  
+  - Multiplication table generator  
+  - Simple login system  
+  - List operations (`append`, `insert`, `remove`, `pop`, `sort`, `reverse`, `clear`, etc.)
 
+## 🎯 Project — Student Grade Calculator
+- `grade_calculator.py`  
+  - Takes student marks (0–100)  
+  - Calculates grade (A/B/C/D/F)  
+  - Adds feedback comments  
+  - Stores all results in a list of dictionaries  
+  - Displays final summary of all students
 
-
-
+## 💡 Notes
+- All programs were tested using different inputs  
+- This week focused heavily on logic building and understanding how loops and conditions work together
