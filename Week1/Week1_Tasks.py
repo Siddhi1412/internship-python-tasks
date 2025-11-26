@@ -1,23 +1,29 @@
-# Write your first 'Hello World' program
+# ---------------------------------------
+# Python Basics Practice
+# Hello World, Variables, Calculator, User Input
+# ---------------------------------------
 
+# -----------------------------
+# 1. Hello World
+# -----------------------------
 print("Hello World!")
 
-# Create variables to store different types of data
-
-name = "Siddhi"        # string
-age = 22               # integer
-height = 5.4           # float
-is_student = True      # boolean
+# -----------------------------
+# 2. Variables
+# -----------------------------
+name = "Siddhi"      # string
+age = 22             # integer
+height = 5.4         # float
+is_student = True    # boolean
 
 print(name)
 print(age)
 print(height)
 print(is_student)
 
-# Build a simple calculator for basic math operations
-
-# type 1
-
+# -----------------------------
+# 3. Simple Calculator — Type 1
+# -----------------------------
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
 
@@ -26,19 +32,17 @@ print("Subtraction:", a - b)
 print("Multiplication:", a * b)
 print("Division:", a / b)
 
-
-
-# Calculator with validation and loop
-# type 2
-
+# -----------------------------
+# 4. Calculator with Validation and Loop — Type 2
+# -----------------------------
 def get_number(prompt):
-    """Ask repeatedly until user gives a valid number"""
+    """Ask repeatedly until user gives a valid number."""
     while True:
         s = input(prompt).strip()
         try:
             return float(s)
         except ValueError:
-            print("That is not a valid number. Try again")
+            print("That is not a valid number. Try again.")
 
 def choose_operation():
     """Let user pick an operation and return a symbol string."""
@@ -50,7 +54,7 @@ def choose_operation():
         op = input("Enter +, -, * or / : ").strip()
         if op in ops:
             return op
-        print("Invalid operation. Choose one of +, -, *, /.")    
+        print("Invalid operation. Choose one of +, -, *, /.")
 
 def calculate(a, b, op):
     """Performs calculation and handles division-by-zero."""
@@ -63,7 +67,7 @@ def calculate(a, b, op):
     if op == "/":
         if b == 0:
             return None
-        return a / b    
+        return a / b
 
 def main():
     print("Simple Calculator — type 'q' at any prompt to quit.")
@@ -91,6 +95,7 @@ def main():
         if result is None:
             print("Error: Division by zero is not allowed.")
         else:
+            # Format result to remove trailing zeros
             formatted = f"{result:.6f}".rstrip("0").rstrip(".")
             print(f"Result of {num1} {op} {num2} = {formatted}")
 
@@ -103,24 +108,19 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-
-# Create a program that asks for user's name and greets them
-
+# -----------------------------
+# 5. Greeting Program
+# -----------------------------
 name = input("Enter your name: ")
 print("Hello", name + "!")
 
-# OR IT CAN BE 
-
+# Or using f-string
 name = input("Enter your name: ")
 print(f"Hello {name} !")
 
-
-
-# Practice fixing common syntax errors
-print("Hello World)    
-    #   corect one is this
-print("Hello World")   
-
-
-
+# -----------------------------
+# 6. Practice fixing common syntax errors
+# -----------------------------
+# Incorrect: print("Hello World)
+# Correct:
+print("Hello World")
