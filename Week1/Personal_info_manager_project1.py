@@ -1,19 +1,18 @@
-# # PROJECT 1 - Build a Personal Information Manager that stores and displays your name, age, city, and hobbies with formatted output
+# PROJECT 1 - Build a Personal Information Manager that stores and displays your name, age, city, and hobbies with formatted output
 
 
-# # Getting user details
-# name = input("Enter your name: ")
-# age = input("Enter your age: ")
-# city = input("Enter your city: ")
-# hobbies = input("Enter your hobbies: ")
+# Getting user details
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+city = input("Enter your city: ")
+hobbies = input("Enter your hobbies: ")
 
-# # Displaying the information 
-# print("\nPersonal Information")
-# print("Name:", name)
-# print("Age:", age)
-# print("City:", city)
-# print("Hobbies:", hobbies)
-
+# Displaying the information 
+print("\nPersonal Information")
+print("Name:", name)
+print("Age:", age)
+print("City:", city)
+print("Hobbies:", hobbies)
 
 
 
@@ -42,3 +41,4 @@ hobby_list = hobbies.split(",")
 # Display each hobby
 for i in hobby_list:
     print(" -", i.strip())
+
