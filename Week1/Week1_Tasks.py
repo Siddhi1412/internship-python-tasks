@@ -118,8 +118,9 @@ print(f"Hello {name} !")
 
 
 # Practice fixing common syntax errors
-# print("Hello World)    
+print("Hello World)    
     #   corect one is this
-    # print("Hello World")   
+print("Hello World")   
+
 
 
