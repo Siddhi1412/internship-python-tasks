@@ -1,0 +1,7 @@
+Row 1 is valid: ['Name', 'Age', 'City']
+Row 2 is valid: ['Siddhi', '22', 'Pune']
+Row 3 is valid: ['Rohan', '25', 'Mumbai']
+Row 4 is valid: ['Anita', '30']
+Row 5 is valid: ['', '', '']
+Row 6 is valid: ['Priya', '28', 'Delhi']
+Row 7 is INVALID: ['Kiran']

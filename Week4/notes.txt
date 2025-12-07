@@ -1,0 +1,2 @@
+Hello ,this is Siddhi Learning file Handling!
+I am practicing Python file handling
