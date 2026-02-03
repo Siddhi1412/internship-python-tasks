@@ -1,78 +1,70 @@
-\# Week 10: Advanced Python Library with Comprehensive Testing
+# Week 10: Advanced Python Library with Comprehensive Testing
 
 
+## 📌 Project Overview
 
-\## 📌 Project Overview
-
-This project is part of my \*\*Python Internship – Week 10 Task\*\*, focused on mastering \*\*advanced Python concepts\*\* and \*\*professional testing practices\*\*.
-
+This project is part of my **Python Internship – Week 10 Task**, focused on mastering advanced Python concepts and **professional testing practices**.
 
 
-The goal of this project is to build a \*\*production-ready Python library\*\* demonstrating:
+The goal of this project is to build a **production-ready Python library** demonstrating:
 
-\- Advanced language features
+- Advanced language features
 
-\- Clean architecture
+- Clean architecture
 
-\- Strong type safety
+- Strong type safety
 
-\- High test coverage
+- High test coverage
 
-\- Industry-standard tooling
-
-
-
----
-
-
-
-\## 🎯 Objectives
-
-\- Understand and implement advanced Python concepts
-
-\- Build a reusable Python package using `src` layout
-
-\- Write comprehensive unit and integration tests
-
-\- Follow Test-Driven Development (TDD) principles
-
-\- Apply type hints and documentation best practices
-
-\- Prepare a library suitable for real-world use
+- Industry-standard tooling
 
 
 
 ---
 
+## 🎯 Objectives
 
+- Understand and implement advanced Python concepts
 
-\## 🧠 Concepts Covered
+- Build a reusable Python package using `src` layout
 
-\- \*\*Decorators\*\* (retry, caching, timing, validation)
+- Write comprehensive unit and integration tests
 
-\- \*\*Generators\*\* for memory-efficient data processing
+- Follow Test-Driven Development (TDD) principles
 
-\- \*\*Context Managers\*\* for safe resource handling
+- Apply type hints and documentation best practices
 
-\- \*\*Metaclasses\*\* for plugin and class registration systems
-
-\- \*\*Type Hints\*\* for improved code quality and maintainability
-
-\- \*\*Custom Exceptions \& Error Handling\*\*
-
-\- \*\*Unit Testing\*\* using `pytest`
-
-\- \*\*Mocking \& Patching\*\*
-
-\- \*\*Test-Driven Development (TDD)\*\*
+- Prepare a library suitable for real-world use
 
 
 
 ---
 
+## 🧠 Concepts Covered
+
+- **Decorators** (retry, caching, timing, validation)
+
+- **Generators** for memory-efficient data processing
+
+- **Context Managers** for safe resource handling
+
+- **Metaclasses** for plugin and class registration systems
+
+- **Type Hints** for improved code quality and maintainability
+
+- **Custom Exceptions & Error Handling**
+
+- **Unit Testing** using `pytest`
+
+- **Mocking & Patching**
+
+- **Test-Driven Development (TDD)**
 
 
-\## 📂 Project Structure
+
+---
+
+## 📂 Project Structure
 
 week10-advanced-library/
 
@@ -134,41 +126,34 @@ week10-advanced-library/
 
 ---
 
+## 🛠️ Tools \& Technologies
 
+- **Python 3.10+**
 
-\## 🛠️ Tools \& Technologies
+- **pytest** – testing framework
 
-\- \*\*Python 3.10+\*\*
+- **mypy** – static type checking
 
-\- \*\*pytest\*\* – testing framework
+- **black & isort** – code formatting
 
-\- \*\*mypy\*\* – static type checking
+- **Git & GitHub** – version control
 
-\- \*\*black \& isort\*\* – code formatting
-
-\- \*\*Git \& GitHub\*\* – version control
-
-\- \*\*GitHub Actions\*\* – CI/CD (planned)
+- **GitHub Actions** – CI/CD (planned)
 
 
 
 ---
+## 🧪 Testing Strategy
 
+- Unit tests for individual components
 
+- Integration tests for workflows
 
-\## 🧪 Testing Strategy
+- Mocking external dependencies
 
-\- Unit tests for individual components
+- Targeting **90%+ code coverage**
 
-\- Integration tests for workflows
-
-\- Mocking external dependencies
-
-\- Targeting \*\*90%+ code coverage\*\*
-
-\- Performance and benchmark testing
-
-
+- Performance and benchmark testing
 
 Example:
 
@@ -178,21 +163,20 @@ pytest
 
 pytest --cov=my\_advanced\_lib
 
+```
 
 
-\## 🚀 Installation (Development Mode)
+## 🚀 Installation (Development Mode)
 
+```bash
 git clone <repository-url>
 
 cd week10-advanced-library
 
 pip install -e .\[dev]
+```
 
-
-
-
-
-\## 📈 Learning Outcomes
+## 📈 Learning Outcomes
 
 Gained hands-on experience with advanced Python internals
 
@@ -201,14 +185,17 @@ Learned to structure and package Python projects professionally
 Improved testing, debugging, and documentation skills
 
 Understood real-world development workflows
+---
 
+## 🧩 Future Enhancements
+- Add CI pipeline with GitHub Actions
+- Increase test coverage with edge cases
+- Publish package to PyPI
+- Add performance benchmarks
 
+## 📌 Internship Note
 
-\## 📌 Internship Note
-
-This project is created as part of my Python Internship – Week 10 Assignment
-
-and follows professional software development standards.
+This project is created as part of my Python Internship – Week 10 Assignment and follows professional software development standards.
 
 
 
